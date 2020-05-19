@@ -23,6 +23,6 @@ export class RecipeDetailPage implements OnInit {
       const recipeId = paramMap.get('recipeId');
       this.loadedRecipe = this.recipeService.getRecipe(recipeId);
     })
-  } 
+  };
 
 }
